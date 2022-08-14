@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+<main>
+<section class="box">
+  <img class="big hero" src="images/hero-desktop.jpg" width="610" height="680" alt="">
+  <img class="small icon" src="images/logo.svg" width="80" height="20" alt="">
+  <img class="small hero" src="images/hero-mobile.jpg" width="300" height="250" alt="">
+  
+<section class="text">
+  <img class="big icon" src="images/logo.svg" width="80" height="20" alt="">
+  <h2>We're <span>coming soon</span></h2>
+
+  <p>Hello fellow shoppers! We're currently building our new fashion store. 
+  Add your email below to stay up-to-date with announcements and our launch deals.</p>
+<form name="email" >
+  <input type="email" name="email" id="email" placeholder="Email Address"><label for="email"><img class="errorsign" id="errorsign" src="images/icon-error.svg" width="40" height="40" alt=""></label>
+  <input type="image" name="validate" src="images/icon-arrow.svg" width="12" height="20" class="button" alt="#" onclick="ValidateEmail(document.email.email)"> 
+</form>
+<p class="error" id="error"> Please provide a valid email</p>
+</section>
+</section>
+</main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Chyunjet</a>.
+    </p>
+  </footer>
+</body>
+</html>
